@@ -1,0 +1,19 @@
+.boaboard_container {
+    height: 100%;
+    max-width: 100%;
+    width: fit-content;
+    padding: 0.5rem;
+    width: 100%;
+}
+
+.boaboard_container .board_header {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 3px;
+    margin: 0 0 21px 0;
+}
+
+.boaboard_container .board_body {
+    display: grid;
+    gap: 1.2rem;
+}
